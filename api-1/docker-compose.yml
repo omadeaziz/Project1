@@ -1,0 +1,13 @@
+services:
+  api1:
+    image: api1
+    container_name: api1
+    restart: always
+    ports:
+      - 7500:7500
+  api2:
+    image: api2
+    container_name: api2
+    restart: always
+    ports:
+      - 8080:8080
